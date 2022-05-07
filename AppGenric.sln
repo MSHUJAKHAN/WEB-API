@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UILayer", "UILayer\UILayer.csproj", "{CE7B05AA-C448-4BB0-9B6D-C35B9AC19800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALayer", "DALayer\DALayer.csproj", "{4F2E1980-EB11-480B-B9B9-A9FDBC33AA52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7B05AA-C448-4BB0-9B6D-C35B9AC19800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7B05AA-C448-4BB0-9B6D-C35B9AC19800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7B05AA-C448-4BB0-9B6D-C35B9AC19800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7B05AA-C448-4BB0-9B6D-C35B9AC19800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2E1980-EB11-480B-B9B9-A9FDBC33AA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2E1980-EB11-480B-B9B9-A9FDBC33AA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2E1980-EB11-480B-B9B9-A9FDBC33AA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2E1980-EB11-480B-B9B9-A9FDBC33AA52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {644E7088-617A-45A2-90F9-81231118ADE7}
+	EndGlobalSection
+EndGlobal

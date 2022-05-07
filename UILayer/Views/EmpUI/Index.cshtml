@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DALayer.EmployeeDetail>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Add Employee", "AddEmployee")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Emp_Num)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Emp_Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Emp_Num)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Emp_Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditEmpDetail", new { id = item.Emp_Num }) 
+            @Html.ActionLink("Details", "ShowEmpDetail", new { id = item.Emp_Num }) 
+            @Html.ActionLink("Delete", "DeleteEmp", new { id=item.Emp_Num  })
+        </td>
+    </tr>
+}
+
+</table>
