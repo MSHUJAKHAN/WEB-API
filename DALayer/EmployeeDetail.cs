@@ -11,9 +11,11 @@ namespace DALayer
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class EmployeeDetail
     {
+        [Required(ErrorMessage ="Please Enter Employee ID")]
         public int Emp_Num { get; set; }
         public string Emp_Name { get; set; }
     }
